@@ -1,6 +1,5 @@
-package com.github.robstoecklein.examples.fromlomboksite;
+package com.github.robstoecklein.examples.lombok;
 
-import lombok.extern.apachecommons.CommonsLog;
 import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 

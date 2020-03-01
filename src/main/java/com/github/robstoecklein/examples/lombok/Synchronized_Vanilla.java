@@ -1,4 +1,4 @@
-package com.github.robstoecklein.examples.fromlomboksite;
+package com.github.robstoecklein.examples.lombok;
 
 /**
  * https://projectlombok.org/features/Synchronized

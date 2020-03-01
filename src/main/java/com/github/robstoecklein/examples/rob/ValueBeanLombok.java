@@ -1,4 +1,4 @@
-package com.github.robstoecklein.examples.lombok;
+package com.github.robstoecklein.examples.rob;
 
 import lombok.Value;
 

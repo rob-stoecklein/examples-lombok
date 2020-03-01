@@ -1,4 +1,4 @@
-package com.github.robstoecklein.examples.fromlomboksite;
+package com.github.robstoecklein.examples.lombok;
 
 import java.io.UnsupportedEncodingException;
 import lombok.Lombok;
