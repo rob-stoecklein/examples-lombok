@@ -2,16 +2,16 @@ package com.github.robstoecklein.examples.lombok;
 
 import java.util.Objects;
 
-public class DataBeanStandard {
+public class DataBeanOldSchool {
 
     private boolean isEnabled;
     private Integer age;
     private String firstName;
 
-    public DataBeanStandard() {
+    public DataBeanOldSchool() {
     }
 
-    public DataBeanStandard(final boolean isEnabled, final Integer age, final String firstName) {
+    public DataBeanOldSchool(final boolean isEnabled, final Integer age, final String firstName) {
         this.isEnabled = isEnabled;
         this.age = age;
         this.firstName = firstName;
@@ -50,7 +50,7 @@ public class DataBeanStandard {
             return false;
         }
 
-        final DataBeanStandard that = (DataBeanStandard) obj;
+        final DataBeanOldSchool that = (DataBeanOldSchool) obj;
 
         if (isEnabled != that.isEnabled) {
             return false;
@@ -71,10 +71,10 @@ public class DataBeanStandard {
 
     @Override
     public String toString() {
-        return "DataBeanStandard{" +
+        return "DataBeanStandard(" +
                 "isEnabled=" + isEnabled +
                 ", age=" + age +
-                ", firstName='" + firstName + '\'' +
-                '}';
+                ", firstName=" + firstName +
+                ')';
     }
 }

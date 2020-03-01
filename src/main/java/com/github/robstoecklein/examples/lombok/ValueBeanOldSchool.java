@@ -2,13 +2,13 @@ package com.github.robstoecklein.examples.lombok;
 
 import java.util.Objects;
 
-public class ValueBeanStandard {
+public class ValueBeanOldSchool {
 
     private final String firstName;
     private final String lastName;
     private final int age;
 
-    public ValueBeanStandard(final String firstName, final String lastName, final int age) {
+    public ValueBeanOldSchool(final String firstName, final String lastName, final int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -35,7 +35,7 @@ public class ValueBeanStandard {
             return false;
         }
 
-        final ValueBeanStandard that = (ValueBeanStandard) obj;
+        final ValueBeanOldSchool that = (ValueBeanOldSchool) obj;
 
         if (age != that.age) {
             return false;
@@ -56,10 +56,10 @@ public class ValueBeanStandard {
 
     @Override
     public String toString() {
-        return "ValueBeanStandard{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+        return "ValueBeanStandard(" +
+                "firstName=" + firstName +
+                ", lastName=" + lastName +
                 ", age=" + age +
-                '}';
+                ')';
     }
 }
