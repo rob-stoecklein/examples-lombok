@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Singular;
 
 /**
- * // https://projectlombok.org/features/Builder
+ * https://projectlombok.org/features/Builder
  */
 @Builder
 public class Builder_Lombok {

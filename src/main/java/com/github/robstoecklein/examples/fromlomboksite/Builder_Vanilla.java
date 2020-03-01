@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.Set;
 
 /**
- * // https://projectlombok.org/features/Builder
+ * https://projectlombok.org/features/Builder
  */
 @SuppressWarnings("ALL")
 public class Builder_Vanilla {

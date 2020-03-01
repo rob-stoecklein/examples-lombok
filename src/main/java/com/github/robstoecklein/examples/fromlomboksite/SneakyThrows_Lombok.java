@@ -1,7 +1,6 @@
 package com.github.robstoecklein.examples.fromlomboksite;
 
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
 import lombok.SneakyThrows;
 
 /**
@@ -9,9 +8,10 @@ import lombok.SneakyThrows;
  */
 public class SneakyThrows_Lombok implements Runnable {
 
+    @SuppressWarnings("CharsetObjectCanBeUsed")
     @SneakyThrows(UnsupportedEncodingException.class)
     public static String utf8ToString(final byte[] bytes) {
-        return new String(bytes, StandardCharsets.UTF_8);
+        return new String(bytes, "UTF-8");
     }
 
     @SneakyThrows
