@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data  // => @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode
+@Data  // https://projectlombok.org/features/Data => @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class DataBeanLombok {
