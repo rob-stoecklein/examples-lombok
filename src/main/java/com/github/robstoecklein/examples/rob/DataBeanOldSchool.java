@@ -71,7 +71,7 @@ public class DataBeanOldSchool {
 
     @Override
     public String toString() {
-        return "DataBeanStandard(" +
+        return "DataBeanOldSchool(" +
                 "isEnabled=" + isEnabled +
                 ", age=" + age +
                 ", firstName=" + firstName +

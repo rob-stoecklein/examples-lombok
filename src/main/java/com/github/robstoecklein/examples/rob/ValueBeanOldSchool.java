@@ -56,7 +56,7 @@ public class ValueBeanOldSchool {
 
     @Override
     public String toString() {
-        return "ValueBeanStandard(" +
+        return "ValueBeanOldSchool(" +
                 "firstName=" + firstName +
                 ", lastName=" + lastName +
                 ", age=" + age +

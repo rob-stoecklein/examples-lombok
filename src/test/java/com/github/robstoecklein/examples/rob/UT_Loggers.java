@@ -10,7 +10,7 @@ class UT_Loggers {
         final LoggerLombok loggerLombok = new LoggerLombok();
         final LoggerOldSchool loggerOldSchool = new LoggerOldSchool();
 
-        loggerLombok.logit("New school");
-        loggerOldSchool.logit("Old school");
+        loggerLombok.myMethod("New school");
+        loggerOldSchool.myMethod("Old school");
     }
 }

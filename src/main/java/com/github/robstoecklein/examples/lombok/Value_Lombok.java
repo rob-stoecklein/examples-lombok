@@ -17,10 +17,11 @@ public class Value_Lombok {
     @NonFinal
     int age;
     double score;
-    private String[] tags;
+    String[] tags;
 
     @ToString(includeFieldNames = true)
     @Value(staticConstructor = "of")
+    @SuppressWarnings("RedundantModifiersValueLombok")
     public static final class Exercise<T> {
 
         String name;

@@ -13,7 +13,7 @@ public class LoggerOldSchool {
         return count;
     }
 
-    public void logit(final String text) {
+    public void myMethod(final String text) {
         count++;
         log.info("{}: the count is: {}", text, count);
     }
