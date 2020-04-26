@@ -5,7 +5,7 @@ import lombok.Value;
 @Value(staticConstructor = "of")
 public class ValueBeanLombok2 {
 
-    String name;
-    int age;
-    double rating;
+    private String name;
+    private int age;
+    private double rating;
 }
